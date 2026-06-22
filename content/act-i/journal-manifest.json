@@ -1,0 +1,117 @@
+{
+  "act": "Act I — The Temple Lie",
+  "foundryFolder": "Act I — The Temple Lie",
+  "journalPack": "three-keys-journals",
+  "entries": [
+    {
+      "name": "00 - Act I Start Here",
+      "source": "content/act-i/00-act-i-start-here.md",
+      "folder": "Act I — The Temple Lie/00 - Start Here",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "01 - Act I GM Overview",
+      "source": "content/act-i/01-gm-overview.md",
+      "folder": "Act I — The Temple Lie/01 - GM Overview",
+      "ownership": "gm-only",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "02 - Session 1: The Choosing of Chains",
+      "source": "content/act-i/02-session-1-the-choosing-of-chains.md",
+      "folder": "Act I — The Temple Lie/02 - Sessions",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "03 - Session 2: The First Dead Seal",
+      "source": "content/act-i/03-session-2-the-first-dead-seal.md",
+      "folder": "Act I — The Temple Lie/02 - Sessions",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "04 - Session 3: The Grandmaster's Test",
+      "source": "content/act-i/04-session-3-the-grandmasters-test.md",
+      "folder": "Act I — The Temple Lie/02 - Sessions",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "05 - NPC Companion Guide",
+      "source": "content/act-i/05-npc-companion-guide.md",
+      "folder": "Act I — The Temple Lie/03 - NPCs and Companions",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "06 - Secrets, Rewards, and Failure States",
+      "source": "content/act-i/06-secrets-rewards-failure.md",
+      "folder": "Act I — The Temple Lie/04 - GM Secrets",
+      "ownership": "gm-only",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "07 - Location: Temple of the Dawn Chain",
+      "source": "content/act-i/07-location-temple-of-the-dawn-chain.md",
+      "folder": "Act I — The Temple Lie/05 - Locations",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "08 - Location: Ash Millet",
+      "source": "content/act-i/08-location-ash-millet.md",
+      "folder": "Act I — The Temple Lie/05 - Locations",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "09 - Location: Shrine of the Buried Bell",
+      "source": "content/act-i/09-location-shrine-of-the-buried-bell.md",
+      "folder": "Act I — The Temple Lie/05 - Locations",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "10 - Location: Western Archive",
+      "source": "content/act-i/10-location-western-archive.md",
+      "folder": "Act I — The Temple Lie/05 - Locations",
+      "ownership": "gm-primary",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "11 - Act I Handouts",
+      "source": "content/act-i/11-act-i-handouts.md",
+      "folder": "Act I — The Temple Lie/06 - Handouts",
+      "ownership": "mixed",
+      "playersCanViewAfterDiscovery": true,
+      "status": "ready-for-conversion"
+    },
+    {
+      "name": "12 - Act I GM Quick Reference",
+      "source": "content/act-i/12-act-i-gm-quick-reference.md",
+      "folder": "Act I — The Temple Lie/07 - GM Quick Reference",
+      "ownership": "gm-only",
+      "playersCanViewAfterDiscovery": false,
+      "status": "ready-for-conversion"
+    }
+  ],
+  "blockedLinks": {
+    "actors": "Blocked by #6 and #7",
+    "items": "Blocked by #8",
+    "scenes": "Blocked by #10",
+    "rollTablesAndMacros": "Blocked by #9"
+  }
+}
