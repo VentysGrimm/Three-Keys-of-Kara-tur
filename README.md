@@ -31,19 +31,35 @@ This repository will become a complete installable Foundry VTT module containing
 - Macros
 - Art, maps, and token placeholders
 
+## Development Standard
+
+This project follows a **compendium-first, code-defined systems** workflow.
+
+All campaign content and gameplay systems should be defined in the repository first, then generated, packed, or loaded into Foundry. The GM-facing workflow should be limited to installing/enabling the module and using the included compendiums or Adventure document.
+
+See:
+
+```text
+docs/compendium-first-development-policy.md
+```
+
 ## Current Status
 
-Initial project scaffold.
+Initial module scaffold with Act I source conversion and early precoded system work underway.
 
 ## Repository Layout
 
 ```text
 assets/       Art, maps, tokens, and audio placeholders
+content/      Human-authored campaign source files and manifests
+data/         Structured system, item, actor, table, and rules data
+foundry-src/  Generated Foundry-style document seed data before pack output
 lang/         Localization files
 packs/        Foundry compendium pack folders
-scripts/      Module JavaScript
+scripts/      Module JavaScript and runtime systems
 styles/       Module CSS
-docs/         Design notes and production roadmap
+tools/        Build/conversion scripts
+docs/         Design notes, policies, roadmaps, and QA docs
 module.json   Foundry module manifest
 ```
 
