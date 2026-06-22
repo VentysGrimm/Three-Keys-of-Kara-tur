@@ -1,0 +1,95 @@
+{
+  "id": "three-keys-of-kara-tur",
+  "title": "Three Keys of Kara-Tur",
+  "description": "A solo D&D 5e adventure campaign for Foundry VTT, spanning levels 1–15 through the Temple of the Dawn Chain, the Pilgrimage of the Three Keys, the Breaking Pilgrimage, and the final confrontation with Atsumori Nine-Tails.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Ventys"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "system": ["dnd5e"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "three-keys-adventures",
+      "label": "Three Keys of Kara-Tur - Adventure",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "three-keys-actors",
+      "label": "Three Keys of Kara-Tur - Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e"
+    },
+    {
+      "name": "three-keys-items",
+      "label": "Three Keys of Kara-Tur - Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e"
+    },
+    {
+      "name": "three-keys-journals",
+      "label": "Three Keys of Kara-Tur - Journals",
+      "path": "packs/journals",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "three-keys-scenes",
+      "label": "Three Keys of Kara-Tur - Scenes",
+      "path": "packs/scenes",
+      "type": "Scene"
+    },
+    {
+      "name": "three-keys-roll-tables",
+      "label": "Three Keys of Kara-Tur - Roll Tables",
+      "path": "packs/roll-tables",
+      "type": "RollTable"
+    },
+    {
+      "name": "three-keys-playlists",
+      "label": "Three Keys of Kara-Tur - Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist"
+    },
+    {
+      "name": "three-keys-macros",
+      "label": "Three Keys of Kara-Tur - Macros",
+      "path": "packs/macros",
+      "type": "Macro"
+    }
+  ],
+  "esmodules": [
+    "scripts/three-keys-of-kara-tur.js"
+  ],
+  "styles": [
+    "styles/three-keys-of-kara-tur.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
