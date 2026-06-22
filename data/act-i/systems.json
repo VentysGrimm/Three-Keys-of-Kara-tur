@@ -1,0 +1,241 @@
+{
+  "schema": "three-keys-act-i-systems-v1",
+  "act": "Act I — The Temple Lie",
+  "moduleId": "three-keys-of-kara-tur",
+  "divineMarks": [
+    {
+      "id": "bone-cradle",
+      "name": "Divine Mark: Bone Cradle",
+      "symbol": "A bone cradle filled with flowers",
+      "god": "Father of Monsters",
+      "seal": "Tarrasque",
+      "vision": "A mountain breathing like a sleeping beast.",
+      "omen": "The character hears a heartbeat beneath stone.",
+      "activation": "reaction-or-free-response",
+      "uses": {
+        "value": 1,
+        "max": 1,
+        "per": "lr"
+      },
+      "rulesText": "Once per long rest, when you are knocked prone or moved against your will, you may immediately reduce the forced movement by 10 feet or stand without spending movement.",
+      "burden": "Animals sometimes flinch from you. Large stone structures seem to breathe when you are alone.",
+      "foundry": {
+        "type": "feat",
+        "img": "icons/svg/upgrade.svg",
+        "actionType": "other",
+        "activationType": "special",
+        "targetType": "self",
+        "durationUnits": "inst"
+      }
+    },
+    {
+      "id": "silver-spear",
+      "name": "Divine Mark: Silver Spear",
+      "symbol": "A silver spear beneath a red moon",
+      "god": "Storjeger, the Great Hunter",
+      "seal": "Slivers",
+      "vision": "A forest running away from the hunter.",
+      "omen": "The character hears distant horns and many feet moving as one.",
+      "activation": "roll-bonus",
+      "uses": {
+        "value": 1,
+        "max": 1,
+        "per": "lr"
+      },
+      "rulesText": "Once per long rest, you may add 1d4 to an initiative roll or Wisdom (Survival) check.",
+      "burden": "Reflections sometimes show you being watched by something with too many eyes.",
+      "foundry": {
+        "type": "feat",
+        "img": "icons/svg/eye.svg",
+        "actionType": "other",
+        "activationType": "special",
+        "targetType": "self",
+        "durationUnits": "inst"
+      }
+    },
+    {
+      "id": "black-serpent",
+      "name": "Divine Mark: Black Serpent",
+      "symbol": "A black serpent biting its own shadow",
+      "god": "Zehir",
+      "seal": "Aboleth",
+      "vision": "An ocean whispering names backward.",
+      "omen": "The character briefly forgets their own name, then remembers it in a voice that is not theirs.",
+      "activation": "save-advantage",
+      "uses": {
+        "value": 1,
+        "max": 1,
+        "per": "lr"
+      },
+      "rulesText": "Once per long rest, you may gain advantage on a saving throw against poison or fear.",
+      "burden": "Still water sometimes ripples toward you, even with no wind.",
+      "foundry": {
+        "type": "feat",
+        "img": "icons/svg/poison.svg",
+        "actionType": "other",
+        "activationType": "special",
+        "targetType": "self",
+        "durationUnits": "inst"
+      }
+    }
+  ],
+  "skillChallenges": [
+    {
+      "id": "archive-escape",
+      "name": "Archive Escape",
+      "goal": "Escape the Western Archive with the fox-marked scroll case while Masked Temple Guardians attempt to separate and test the party.",
+      "successesRequired": 5,
+      "failuresAllowed": 2,
+      "failureThreshold": 3,
+      "dcBands": {
+        "straightforward": 12,
+        "riskyOrClever": 14,
+        "desperate": 16
+      },
+      "validSkills": [
+        "acr",
+        "ath",
+        "his",
+        "inv",
+        "rel",
+        "ste",
+        "prc",
+        "arc",
+        "med"
+      ],
+      "support": [
+        {
+          "npc": "Jon Soo",
+          "feature": "Drunken Diversion",
+          "effect": "Cancel one failure or grant advantage on Athletics, Acrobatics, or Deception."
+        },
+        {
+          "npc": "Yuko Yanagi",
+          "feature": "Moonlit Path",
+          "effect": "Grant advantage on Stealth, Perception, or Survival."
+        },
+        {
+          "npc": "Joka",
+          "feature": "Poisoned Needle",
+          "effect": "Remove one guardian complication or grant advantage on Sleight of Hand, Medicine, or Stealth."
+        },
+        {
+          "npc": "Master Seigen",
+          "feature": "Serpent's Key",
+          "effect": "Automatically reveal the fox-marked scroll case, but the player owes Seigen a favor."
+        }
+      ],
+      "failureComplicationsTableId": "archive-escape-failure-complications"
+    }
+  ],
+  "rollTables": [
+    {
+      "id": "seal-warped-beast-mutations",
+      "name": "Seal-Warped Beast Mutations",
+      "formula": "1d6",
+      "results": [
+        {
+          "range": [1, 1],
+          "text": "Stone Plates: +1 AC."
+        },
+        {
+          "range": [2, 2],
+          "text": "Sliver Twitch: Advantage on initiative."
+        },
+        {
+          "range": [3, 3],
+          "text": "Poison Breath: once per fight, 10-foot cone, DC 11 Constitution save, 1d6 poison damage on failure, half on success."
+        },
+        {
+          "range": [4, 4],
+          "text": "Memory Echo: speaks one sentence from the player's childhood."
+        },
+        {
+          "range": [5, 5],
+          "text": "Hunger Aura: creatures within 5 feet cannot regain hit points."
+        },
+        {
+          "range": [6, 6],
+          "text": "Split Jaw: bite deals +2 damage."
+        }
+      ]
+    },
+    {
+      "id": "archive-escape-failure-complications",
+      "name": "Archive Escape Failure Complications",
+      "formula": "1d6",
+      "results": [
+        {
+          "range": [1, 1],
+          "text": "A shelf collapses, splitting the party."
+        },
+        {
+          "range": [2, 2],
+          "text": "A guardian seizes the First Bell Fragment."
+        },
+        {
+          "range": [3, 3],
+          "text": "Yuko is injured protecting the player."
+        },
+        {
+          "range": [4, 4],
+          "text": "Joka kills a guardian too quickly, escalating the scene."
+        },
+        {
+          "range": [5, 5],
+          "text": "Jon Soo nearly loses control of his hidden oath."
+        },
+        {
+          "range": [6, 6],
+          "text": "Seigen abandons the group temporarily to protect his own secrets."
+        }
+      ]
+    },
+    {
+      "id": "jokas-challenge",
+      "name": "Joka's Challenge",
+      "formula": "1d4",
+      "results": [
+        {
+          "range": [1, 1],
+          "text": "Poison cup test: Constitution save or Medicine check, DC 12."
+        },
+        {
+          "range": [2, 2],
+          "text": "Shadow tag: Perception, Stealth, or Acrobatics, DC 12."
+        },
+        {
+          "range": [3, 3],
+          "text": "Sparring match: Athletics, Acrobatics, or attack roll."
+        },
+        {
+          "range": [4, 4],
+          "text": "Nerve test: Wisdom save or Insight check, DC 12."
+        }
+      ]
+    }
+  ],
+  "companionSupport": [
+    {
+      "id": "yuko-hunters-glance",
+      "npc": "Yuko Yanagi",
+      "name": "Hunter's Glance",
+      "uses": "Once per scene",
+      "effect": "Yuko gives the player advantage on a Perception, Insight, or Survival check."
+    },
+    {
+      "id": "jon-soo-laughing-guard",
+      "npc": "Jon Soo",
+      "name": "Laughing Guard",
+      "uses": "Once per short rest",
+      "effect": "Jon Soo imposes disadvantage on an attack against the player if he is within 5 feet of the attacker or the player."
+    },
+    {
+      "id": "joka-zehirs-needle",
+      "npc": "Joka",
+      "name": "Zehir's Needle",
+      "uses": "Once per combat",
+      "effect": "Joka poisons a weapon. On a hit, the target takes extra poison damage or has disadvantage on its next attack."
+    }
+  ]
+}
