@@ -1,0 +1,7 @@
+/* Three Keys of Kara-Tur module styles. */
+
+.three-keys-of-kara-tur .journal-page-content h1,
+.three-keys-of-kara-tur .journal-page-content h2,
+.three-keys-of-kara-tur .journal-page-content h3 {
+  letter-spacing: 0.02em;
+}
